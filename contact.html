@@ -1,0 +1,247 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs page</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <script defer src="index.js"></script>
+</head>
+<body>
+     <!-- navbaar -->
+     <header class="header">
+        <img src="images/logo.png" alt="this is our logo" class="logo" />
+  
+        <nav class="navbar">
+          <ul class="navbar-lists">
+            <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+            <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+            <li><a href="/service.html" class="navbar-link service-link">Services</a></li>
+            <li><a href="/portfolio.html" class="navbar-link portfolio-link">Portfolio</a></li>
+            <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+     <!-- our contact us section -->
+     <section class="section section-contact">
+        <div class="container">
+          <h2 class="common-heading">Contact Us</h2>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58155.336653771024!2d72.69892852905276!3d24.356643393129758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395cd80921e1e7c1%3A0xd05ba0af7d234bea!2sMaval%2C%20Rajasthan%20307026!5e0!3m2!1sen!2sin!4v1650633443747!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+        <div class="section-contact-main contact-container">
+          <form action="#">
+            <div class="grid grid-two-column">
+              <div>
+                <label for="username"></label>
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                  id="username"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+              <div>
+                <label for="email"></label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="demo@gmail.com"
+                  id="email"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+  
+            <div>
+              <label for="subject"></label>
+              <input
+                type="text"
+                name="subject"
+                placeholder="subject"
+                id="subject"
+              />
+            </div>
+            <div>
+              <label for="textarea"></label>
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div>
+              <input
+                type="submit"
+                value="send message"
+                name="submit"
+                id="submit"
+                class="btn"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="section section-footer">
+        <div class="container grid grid-four-column">
+          <div class="f-about">
+            <h3>About</h3>
+            <p>
+              We have tested a number of registry fix and clean utilities and
+              present our top 3 list on our site for your convenience . hope you
+              like it.
+            </p>
+          </div>
+          <div class="f-links">
+            <h3>Links</h3>
+            <ul>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                ></span><a href="#">home</a>
+              </li>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                  ></span><a href="#">about</a>
+              </li>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                  ></span><a href="#">services</a>
+              </li>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                  ></span><a href="#">portfolio</a>
+              </li>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                  ></span><a href="#">contact</a>
+              </li>
+  
+            </ul>
+          </div>
+  
+          <div class="f-services">
+            <h3>Services</h3>
+            <ul>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                ></span><a href="#">Web Design</a>
+              </li>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                  ></span><a href="#">Web Development</a>
+              </li>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                  ></span><a href="#">Problem Solving</a>
+              </li>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                  ></span><a href="#">Photography</a>
+              </li>
+  
+              <li>
+                <span><ion-icon name="arrow-forward-outline"></ion-icon
+                  ></span><a href="#">Graphic Design</a>
+              </li>
+  
+            </ul>
+          </div>
+  
+          <div class="f-address">
+            <h3>Have a Questions?</h3>
+            <address>
+              <div>
+                <p><span><ion-icon name="location-outline"></ion-icon></span>
+                Mount-abu, India</p>
+              </div>
+  
+              <div>
+                <p><span><ion-icon name="call-outline"></ion-icon></span>
+                <a href="tel:+917425993656"> +91 8955379445</a>
+                </p>
+              </div>
+  
+              <div>
+                <p><span><ion-icon name="mail-outline"></ion-icon></span>
+               <a href="mailto:mukeshkumarkeermk@gmail.com">
+                 mukeshkumar@gmail.com</a>
+              </p>
+              </div>
+            </address>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="f-social-links">
+            <a href="instagram.com/mr_mukesh_keer18" target="_blank">
+              <ion-icon class="icons" name="logo-instagram"></ion-icon>
+            </a>
+  
+            <a href="https://github.com/mukesh567" target="_blank">
+              <ion-icon class="icons" name="logo-github"></ion-icon>
+            </a>
+  
+            <a href="twitter.com/MukeshS75159403" target="_blank">
+              <ion-icon class="icons" name="logo-twitter"></ion-icon>
+            </a>
+  
+            <a href="https://www.linkedin.com/in/mukesh-kir-29151a208" target="_blank">
+              <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+            </a>
+          </div>
+  
+          <div class="f-credits">
+            <p>
+              Copyright @2022 All rights reserved | This template is made with
+              ❤ by Thapa and Aman 
+            </p>
+          </div>
+      
+        </div>
+      </footer>
+  
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+</body>
+</html>

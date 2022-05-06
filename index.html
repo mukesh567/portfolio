@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="My portfolio website to showcase the work I have done so far,
+    the services i provide and all my professionals life . "
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript , portfolio website,Bio-data website"
+    />
+    <meta name="author" content="Mukesh keer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portfolio website</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <!-- navbaar -->
+    <header class="header">
+      <img src="images/logo.png" alt="this is our logo" class="logo" />
+
+      <nav class="navbar">
+        <ul class="navbar-lists">
+          <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+          <li>
+            <a href="/about.html" class="navbar-link about-link">About</a>
+          </li>
+          <li>
+            <a href="/service.html" class="navbar-link service-link"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="/portfolio.html" class="navbar-link portfolio-link"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="/contact.html" class="navbar-link contact-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+
+    <!-- Our main hero section  -->
+    <main>
+      <section class="section-hero section">
+        <div class="container grid grid-two-column">
+          <div class="section-hero-data">
+            <p class="hero-top-data">this is me</p>
+            <h1 class="hero-heading">mukesh keer</h1>
+            <p class="hero-para">
+              I'm mukesh kumar keer. A Front-end web Developer,software
+              developer and freelancer. I'm enjoyed to learned new skills for a
+              Developer.
+            </p>
+            <div>
+              <a href="#" class="btn hireme-btn">Hire me</a>
+            </div>
+          </div>
+          <div class="section-hero-image">
+            <img
+              src="images/hero.jpg"
+              alt="This is me mukesh"
+              class="hero-img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- our bio-data section -->
+
+    <section class="section-biodata section">
+      <div class="container grid grid-two-column">
+        <div class="bio-image">
+          <img
+            src="images/bio-data.jpg"
+            alt="my bio data image"
+            loading="lazy"
+          />
+        </div>
+        <div class="bio-data">
+          <h2 class="common-heading">my bio-data</h2>
+          <p>
+            I'm mukesh keer. I'm from mount-abu(rajasthan).Currently i'm
+            pursuing B.tech in computer science and engineering from government
+            engineering college , bikaner.
+          </p>
+          <br />
+          <p>
+            I'm a good learner. My skills is my strength. My top skills are
+            mentioned below 😍.
+          </p>
+          <div class="bio-data-stats">
+            <div class="bio-stats">
+              <h3>Data structure and Algorithm</h3>
+              <div class="bio-progress-bar">
+                <span>70%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>C/C++</h3>
+              <div class="bio-progress-bar bio-progress-2">
+                <span>80%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>Core JAVA</h3>
+              <div class="bio-progress-bar bio-progress-3">
+                <span>80%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>HTML</h3>
+              <div class="bio-progress-bar bio-progress-4">
+                <span>85%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>CSS</h3>
+              <div class="bio-progress-bar bio-progress-5">
+                <span>60%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>JavaScript</h3>
+              <div class="bio-progress-bar bio-progress-6">
+                <span>65%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>React.JS</h3>
+              <div class="bio-progress-bar bio-progress-7">
+                <span>50%</span>
+              </div>
+            </div>
+          </div>
+          <div class="bio-data-btn">
+            <a href="https://drive.google.com/file/d/1eOSC4lOdiaHBYpo7zzG9aifY58PHEVES/view?usp=sharing" class="btn"
+            download
+            target="_blank"
+            >Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our portfolio section start -->
+    <section class="section section-portfolio" id="portfolio-section">
+      <div class="container">
+        <h2 class="common-heading">Latest Works</h2>
+        <p>
+          I'm a front-end developer. I have made some projects which are
+          mentioned below . please visit the basic projects 🤩
+        </p>
+      </div>
+      <div class="p-btns">
+        <div class="btn p-btn p-btn-active" data-btn-num="1">Basic Website</div>
+        <div class="btn p-btn p-btn-active" data-btn-num="2">Main-Sites</div>
+      </div>
+
+      <div class="container grid grid-three-column portfolio-images">
+        <div class="img-overlay p-btn--1">
+          <img src="images/folio/1.jpg" alt="my works" loading="lazy" />
+          <div class="overlay">
+            <a
+              href=" https://mukesh567.github.io/Clock/"
+              target="_blank"
+              class="common-heading"
+            >
+              <span>Project-1</span>
+            </a>
+          </div>
+        </div>
+        <div class="img-overlay p-btn--1">
+          <img src="images/folio/2.jpg" alt="my works" loading="lazy" />
+          <div class="overlay">
+            <a
+              href="  https://mukesh567.github.io/Drum-Kit/"
+              target="_blank"
+              class="common-heading"
+            >
+              <span> Project-2</span>
+            </a>
+          </div>
+        </div>
+        <div class="img-overlay p-btn--2">
+          <img src="images/folio/3.jpg" alt="my works" loading="lazy" />
+          <div class="overlay">
+            <a
+              href=" https://mukesh567.github.io/firstReact/"
+              target="_blank"
+              class="common-heading"
+            >
+              <span>Project-3</span>
+            </a>
+          </div>
+        </div>
+        <div class="img-overlay p-btn--1">
+          <img src="images/folio/4.jpg" alt="my works" loading="lazy" />
+          <div class="overlay">
+            <a
+              href="https://mukesh567.github.io/project-1/"
+              target="_blank"
+              class="common-heading"
+            >
+              <span> Project-4</span>
+            </a>
+          </div>
+        </div>
+        <div class="img-overlay p-btn--2">
+          <img src="images/folio/5.jpg" alt="my works" loading="lazy" />
+          <div class="overlay">
+            <a
+              href=" https://mukesh567.github.io/TinDog-Completed-Website/"
+              target="_blank"
+              class="common-heading"
+            >
+              <span>Project-5</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--2">
+          <img src="images/folio/6.jpg" alt="my works" loading="lazy" />
+          <div class="overlay">
+            <a
+              href="https://auth.geeksforgeeks.org/user/mukeshkumarkeermk/practice"
+              target="_blank"
+              class="common-heading"
+            >
+              <span class="gfg">GeeksForGeeks</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- // our work counter section start -->
+    <section class="section section-work-data">
+      <div class="container grid grid-four-column">
+        <div>
+          <h2 class="counter-numbers" data-number="2000">0+</h2>
+          <p>project completed</p>
+        </div>
+        <div>
+          <h2 class="counter-numbers" data-number="6000">0+</h2>
+          <p>Happy Clients</p>
+        </div>
+        <div>
+          <h2 class="counter-numbers" data-number="5000">0+</h2>
+          <p>Happy for Works</p>
+        </div>
+        <div>
+          <h2 class="counter-numbers" data-number="3000">0+</h2>
+          <p>real professional</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- our services section start -->
+    <section class="section section-services">
+      <div class="container">
+        <h2 class="common-heading">Services Offers</h2>
+        <p>
+          This is a list of your skills and service offerings. Some choose to
+          put this section within their “About” section. Providing this
+          information lets interested people know that they're on the correct
+          website
+        </p>
+      </div>
+
+      <div class="container grid grid-three-column">
+        <div class="service-box">
+          <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+          <h3>Web Design</h3>
+          <p>
+            "Web designers use their creative and software
+            engineering/programming skills to design, build and improve
+            websites."
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="logo-react" class="service-icon"></ion-icon>
+          <h3>Web Development</h3>
+          <p>
+            "Web development services are used to design, build, support, and
+            evolve all types of web-based software."
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="checkbox-outline" class="service-icon"></ion-icon>
+          <h3>Problem Solving</h3>
+          <p>
+            "Problem solving skills are highly sought after by employers as many
+            companies rely on their employees to identify and solve problems."
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+          <h3>photography</h3>
+          <p>
+            "Professional photography and video services work with clients to
+            provide videos and photographs for a variety of purposes including
+            advertising, and employee communication."
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="apps-outline" class="service-icon"></ion-icon>
+          <h3>Apps Interface</h3>
+          <p>
+            "The user interface is the first thing your customers notice about
+            your product. The very idea behind your service and its benefits are
+            communicated through the user interface."
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="logo-firebase" class="service-icon"></ion-icon>
+          <h3>Graphic design</h3>
+          <p>
+            "Graphic design is an integral part of any business and that’s as
+            true for your company’s image as it is for your marketing."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- our swiper section start -->
+    <section class="section section-testimonial">
+      <div class="container">
+        <h2 class="common-heading">Happy Clients😍</h2>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "After learning from this , I created my own website. the less i
+                appreciate it. Very good web. Best for those who want to learn
+                how to create a potrfolio website?"
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/Swiper/dimpal.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>Dimpal keer</p>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "Best website ever but would have loved you guys to add a test
+                for a student to test his/here knowledge in coding ."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/Swiper/vikkuji.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>Vikram kumar</p>
+                <p>Agriculture officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "One of the best portfolio website is here. This is absolutely
+                free and the best website for you ."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/Swiper/Ashvin.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>Ashvin Chouhan</p>
+                <p>Full Stack Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "This website had everything I needed to improve my web
+                development skills...I have to say I'made very impressed with
+                this website ." -->
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/Swiper/mamta.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>Mamta keer</p>
+                <p>Font-end Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "Thanks to developer I have learnt a lot already...want to beg
+                for one thing again can you create another portfolio website ."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/Swiper/mannu.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>Mannu keer</p>
+                <p>Software Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "Best website ever but would have loved you guys to add a test
+                for a student to test his/here knowledge in coding ."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/Swiper/mukesh.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>Mukesh kumar</p>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "If you are interested to learn coding for website . this
+                website helps a lot. So , I request all visit this website once
+                . "
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/Swiper/rinku.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>Rinku kumari</p>
+                <p>Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "A great website....it is very easy to understand. And all types
+                of features are very easy and at a time try your self also there
+                ."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/Swiper/shiva.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>Shiv Kumar</p>
+                <p>Agriculture Department</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-client-msg">
+              <p>
+                "A great website...although it would be better if there was a
+                feature that allows you save your work ."
+              </p>
+            </div>
+            <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                <img
+                  src="images/Swiper/yash.jpg"
+                  alt="client review"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="client-data-details">
+                <p>Yash Veer</p>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- our freelancing section start -->
+    <section class="section section-freelancing">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>I am <span>available</span> for freelancing</h2>
+        <p>
+          I am very interested in work from home. A flexible work schedule,and a
+          better work-life balance .
+        </p>
+        <a href="/contact.html" class="btn">HIRE ME</a>
+      </div>
+    </section>
+
+    <!-- our contact us section -->
+    <section class="section section-contact">
+      <div class="container">
+        <h2 class="common-heading">Contact Us</h2>
+      </div>
+
+      <div class="section-contact-main contact-container">
+        <form action="https://formspree.io/f/xgedppdj" method="POST">
+          <div class="grid grid-two-column">
+            <div>
+              <label for="username"></label>
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                id="username"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <div>
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                placeholder="demo@gmail.com"
+                id="email"
+                required
+                autocomplete="off"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label for="subject"></label>
+            <input
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              id="subject"
+            />
+          </div>
+          <div>
+            <label for="textarea"></label>
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              required
+              autocomplete="off"
+              min="5"
+            ></textarea>
+          </div>
+          <div>
+            <input
+              type="submit"
+              value="send message"
+              name="submit"
+              id="submit"
+              class="btn"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- our footer section start -->
+    <footer class="section section-footer">
+      <div class="container grid grid-four-column">
+        <div class="f-about">
+          <h3>About</h3>
+          <p>
+            We have tested a number of registry fix and clean utilities and
+            present our top 3 list on our site for your convenience . hope you
+            like it.
+          </p>
+        </div>
+        <div class="f-links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">home</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">about</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">services</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">portfolio</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="f-services">
+          <h3>Services</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Web Design</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Web Development</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Problem Solving</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Photography</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Graphic Design</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="f-address">
+          <h3>Have a Questions?</h3>
+          <address>
+            <div>
+              <p>
+                <span><ion-icon name="location-outline"></ion-icon></span>
+                Mount-abu, India
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><ion-icon name="call-outline"></ion-icon></span>
+                <a href="tel:+917425993656"> +91 8955379445</a>
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><ion-icon name="mail-outline"></ion-icon></span>
+                <a href="mailto:mukeshkumarkeermk@gmail.com">
+                  mukeshkumar@gmail.com</a
+                >
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="f-social-links">
+          <a href="instagram.com/mr_mukesh_keer18" target="_blank">
+            <ion-icon class="icons" name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="https://github.com/mukesh567" target="_blank">
+            <ion-icon class="icons" name="logo-github"></ion-icon>
+          </a>
+
+          <a href="twitter.com/MukeshS75159403" target="_blank">
+            <ion-icon class="icons" name="logo-twitter"></ion-icon>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/mukesh-kir-29151a208"
+            target="_blank"
+          >
+            <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+
+        <div class="f-credits">
+          <p>
+            Copyright @2022 All rights reserved | This template is made with ❤
+            by Thapa and Aman
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>
